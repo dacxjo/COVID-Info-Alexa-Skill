@@ -1,0 +1,254 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "covid info",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Que más puedes hacer",
+            "Que más puedes decir",
+            "Ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GlobalSummaryIntent",
+          "slots": [],
+          "samples": [
+            "Estadísticas del mundo",
+            "Situación mundial",
+            "Cual es la situación del mundo",
+            "Di las estadísticas globales",
+            "Dime estadísticas globales",
+            "hola"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CountrySummaryIntent",
+          "slots": [
+            {
+              "name": "COVID_COUNTRY",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "Di las estadísticas de {COVID_COUNTRY}",
+            "Como está la situación de {COVID_COUNTRY}",
+            "Estadísticas de {COVID_COUNTRY}",
+            "Situación de {COVID_COUNTRY} ",
+            "Cúal es la situación de {COVID_COUNTRY}",
+            "Dime las estadísticas de {COVID_COUNTRY}"
+          ]
+        },
+        {
+          "name": "StatusByCountryIntent",
+          "slots": [
+            {
+              "name": "COVID_COUNTRY",
+              "type": "AMAZON.Country"
+            },
+            {
+              "name": "COVID_STATUS",
+              "type": "COVID_STATUS"
+            }
+          ],
+          "samples": [
+            "Qué número de {COVID_STATUS} hay en {COVID_COUNTRY}",
+            "Cuantos casos {COVID_STATUS} existen en {COVID_COUNTRY}",
+            "Dime cuantos {COVID_STATUS} hay en {COVID_COUNTRY}",
+            "Cuantos {COVID_STATUS} hay en {COVID_COUNTRY}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [
+            "Dilo de nuevo",
+            "Dímelo otra vez",
+            "Puedes decirlo de nuevo",
+            "Dilo otra vez",
+            "Repitelo",
+            "Repite por favor",
+            "Repitelo por favor",
+            "Repite",
+            "Lo puedes repetir",
+            "Repite eso",
+            "Repítelo por favor"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "Es todo gracias",
+            "Es todo",
+            "Nada",
+            "Nada más",
+            "Nada más gracias",
+            "No gracias",
+            "No"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "venezuela",
+              "name": {
+                "value": "Venezuela"
+              }
+            },
+            {
+              "id": "el-salvador",
+              "name": {
+                "value": "El salvador"
+              }
+            },
+            {
+              "id": "india",
+              "name": {
+                "value": "India"
+              }
+            },
+            {
+              "id": "peru",
+              "name": {
+                "value": "Perú",
+                "synonyms": [
+                  "Peru"
+                ]
+              }
+            },
+            {
+              "id": "ecuador",
+              "name": {
+                "value": "Ecuador"
+              }
+            },
+            {
+              "id": "colombia",
+              "name": {
+                "value": "Colombia"
+              }
+            },
+            {
+              "id": "panama",
+              "name": {
+                "value": "Panamá",
+                "synonyms": [
+                  "Panama"
+                ]
+              }
+            },
+            {
+              "id": "guatemala",
+              "name": {
+                "value": "Guatemala"
+              }
+            },
+            {
+              "id": "japan",
+              "name": {
+                "value": "Japón"
+              }
+            },
+            {
+              "id": "honduras",
+              "name": {
+                "value": "Honduras"
+              }
+            },
+            {
+              "id": "costa-rica",
+              "name": {
+                "value": "Costa Rica"
+              }
+            },
+            {
+              "id": "italy",
+              "name": {
+                "value": "Italia"
+              }
+            },
+            {
+              "id": "france",
+              "name": {
+                "value": "Francia"
+              }
+            },
+            {
+              "id": "china",
+              "name": {
+                "value": "China"
+              }
+            },
+            {
+              "id": "spain",
+              "name": {
+                "value": "España"
+              }
+            },
+            {
+              "id": "united-states",
+              "name": {
+                "value": "Estados unidos"
+              }
+            },
+            {
+              "id": "nicaragua",
+              "name": {
+                "value": "Nicaragua"
+              }
+            }
+          ],
+          "name": "AMAZON.Country"
+        },
+        {
+          "values": [
+            {
+              "id": "active",
+              "name": {
+                "value": "activos"
+              }
+            },
+            {
+              "id": "deaths",
+              "name": {
+                "value": "muertos",
+                "synonyms": [
+                  "fallecimientos",
+                  "fallecidos"
+                ]
+              }
+            },
+            {
+              "id": "confirmed",
+              "name": {
+                "value": "confirmados"
+              }
+            },
+            {
+              "id": "recovered",
+              "name": {
+                "value": "recuperados"
+              }
+            }
+          ],
+          "name": "COVID_STATUS"
+        }
+      ]
+    }
+  },
+  "version": "9"
+}

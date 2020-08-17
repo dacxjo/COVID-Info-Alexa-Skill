@@ -1,0 +1,129 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Global and country statistics of the advance of new coronavirus (COVID-19)",
+          "examplePhrases": [
+            "Alexa open covid info and tell me the global statistics",
+            "Alexa open covid info and tell me how many deaths are there in United States",
+            "Alexa open covid info and tell me how is the situation in United States"
+          ],
+          "keywords": [
+            "covid",
+            "covid-19",
+            "coronavirus",
+            "news",
+            "coronavirus",
+            "news"
+          ],
+          "name": "COVID Info",
+          "description": "Get updated data on the numbers of confirmed, deceased, recovered or active cases from around the world or from a specific country, from this Alexa skill.\n\nFor the operation of this skill, the API of https://covid19api.com/ \"covid19api\" is used.\n\nWe will be in continuous development for the improvement of functionalities and bug solutions, any opinion or suggestion is welcome.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-ES": {
+          "summary": "Estadísticas globales y por país del avance de nuevo coronavirus (COVID-19)",
+          "examplePhrases": [
+            "Alexa abre covid info y dime las estadísticas globales",
+            "Alexa pregunta a covid info cuántos fallecidos hay en España.",
+            "Alexa abre covid info y dime la situación actual de España."
+          ],
+          "keywords": [
+            "coronavirus",
+            "covid-19",
+            "noticias",
+            "información",
+            "covid"
+          ],
+          "name": "COVID Info",
+          "description": "Obtén los datos actualizados de números de casos confirmados, fallecidos , recuperados o activos de todo el mundo o bien de un país en concreto, desde esta skill de Alexa.\n\nPara el funcionamiento de esta skill, se utiliza la API de https://covid19api.com/ \"covid19api\".\n\nEstaremos en continuo desarrollo para la mejora de funcionalidades y soluciones de errores, cualquier opinión o sugerencia es bienvenida.",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Estadísticas globales y por país del avance de nuevo coronavirus (COVID-19)",
+          "examplePhrases": [
+            "Alexa abre covid info y dime las estadísticas globales",
+            "Alexa abre covid info y dime cuántos fallecidos hay en México.",
+            "Alexa pregunta a covid info cual es la situación actual de México."
+          ],
+          "keywords": [
+            "coronavirus",
+            "covid-19",
+            "noticias",
+            "información",
+            "covid"
+          ],
+          "name": "COVID Info",
+          "description": "Obtén los datos actualizados de números de casos confirmados, fallecidos , recuperados o activos de todo el mundo o bien de un país en concreto, desde esta skill de Alexa.\n\n\nPara el funcionamiento de esta skill, se utiliza la API de https://covid19api.com/ \"covid19api\".\n\nEstaremos en continuo desarrollo para la mejora de funcionalidades y soluciones de errores, cualquier opinión o sugerencia es bienvenida.",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Ask to the skill any utterances to receive a valid response, is a simple skill, it just make a http request to covid19api to get a response and speak with a formatted output.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "VE",
+        "SV",
+        "IN",
+        "PE",
+        "EC",
+        "CO",
+        "PA",
+        "HN",
+        "JP",
+        "GT",
+        "CR",
+        "IT",
+        "FR",
+        "CN",
+        "ES",
+        "US",
+        "NI"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:905635326328:function:bdc9a932-4799-47c8-ac9a-4963eebc6503:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:905635326328:function:bdc9a932-4799-47c8-ac9a-4963eebc6503:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:905635326328:function:bdc9a932-4799-47c8-ac9a-4963eebc6503:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:905635326328:function:bdc9a932-4799-47c8-ac9a-4963eebc6503:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {},
+        "es-ES": {},
+        "es-MX": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
