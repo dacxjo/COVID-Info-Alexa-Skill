@@ -9,8 +9,8 @@ Para el funcionamiento de esta skill, se utiliza la API de [covid19api](https://
 ## Frases de ejemplo
 
 1. Alexa abre covid info y dime las estadísticas globales
-2. Alexa pregunta a covid info cuántos fallecidos hay en España.
-3. Alexa abre covid info y dime la situación actual de España.
+2. Alexa pregunta a covid info cuántos fallecidos hay en Nicaragua.
+3. Alexa abre covid info y dime la situación actual de Nicaragua.
 
 ## Idiomas
 
